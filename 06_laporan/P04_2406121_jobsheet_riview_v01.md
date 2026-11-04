@@ -1,0 +1,3 @@
+• Situasi A: Mahasiswa melihat kalender akademik tanpa garis asosiasi langsung dari Mahasiswa: jelaskan mengapa hal itu tetap benar menurut diagram (pewarisan dari Civitas Akademika).
+• Situasi B: Dosen yang bukan pengampu mencoba menginput nilai: tuliskan hasil yang harus terjadi menurut deskripsi Input Nilai Mata Kuliah.
+• Situasi C: Admin Akademik menghapus data mahasiswa yang masih memiliki data akademik aktif: tuliskan hasil yang harus terjadi menurut aturan tugas
