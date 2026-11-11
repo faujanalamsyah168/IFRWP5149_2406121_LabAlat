@@ -1,0 +1,231 @@
+<mxfile host="65bd71144e">
+    <diagram id="cFzprnSz7WC8uOslN8n4" name="activity_Ajukan_KRS">
+        <mxGraphModel dx="986" dy="2893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="cb4Uvgw1uSejmsdjCL4G-0"/>
+                <mxCell id="cb4Uvgw1uSejmsdjCL4G-1" parent="cb4Uvgw1uSejmsdjCL4G-0"/>
+                <UserObject label="" plantUmlData="{&#xa;  &quot;data&quot;: &quot;@startuml\nskinparam DefaultTextAlignment center\n|Mahasiswa|\nstart\n:Membuka fungsi Ajukan KRS;\n|Sistem|\n:Menampilkan daftar mata kuliah yang \\nditawarkan pada semester berjalan;\n|Mahasiswa|\n:Memilih mata kuliah;\n:Mengajukan KRS;\n|Sistem|\n:Menerima daftar mata kuliah yang diajukan;\n:Memeriksa total SKS tidak melebihi batas;\n:Memeriksa prasyarat setiap mata kuliah;\n:Memeriksa tidak ada jadwal kuliah yang bentrok;\nif (KRS Valid?) then ([ya])\n  #d5e8d4:Menyimpan pengajuan KRS dengan status Menunggu Keputusan \\ndan menampilkan konfirmasi (extension point: Bukti tersedia);\nelse ([tidak])\n  #f8cecc:Menolak pengajuan dan menampilkan \\npesan alasan KRS tidak valid;\nendif\nstop\n@enduml&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="3hXyhc8P0itnaOUiQhe7-0">
+                    <mxCell connectable="0" parent="cb4Uvgw1uSejmsdjCL4G-1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;" vertex="1">
+                        <mxGeometry as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Mahasiswa" plantUmlId="lane_39" plantUmlBaseStyle="swimlane;collapsible=0;startSize=30;fillColor=none;swimlaneFillColor=none;strokeColor=#181818;strokeWidth=1.5;fontColor=#000000;fontSize=18;fontStyle=0;html=1;align=center;" plantUmlBaseValue="Mahasiswa" id="3hXyhc8P0itnaOUiQhe7-1">
+                    <mxCell parent="3hXyhc8P0itnaOUiQhe7-0" style="swimlane;collapsible=0;startSize=30;fillColor=none;swimlaneFillColor=none;strokeColor=#181818;strokeWidth=1.5;fontColor=#000000;fontSize=18;fontStyle=0;html=1;align=center;" vertex="1">
+                        <mxGeometry height="676" width="197" x="30" y="30" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Sistem" plantUmlId="lane_40" plantUmlBaseStyle="swimlane;collapsible=0;startSize=30;fillColor=none;swimlaneFillColor=none;strokeColor=#181818;strokeWidth=1.5;fontColor=#000000;fontSize=18;fontStyle=0;html=1;align=center;" plantUmlBaseValue="Sistem" id="3hXyhc8P0itnaOUiQhe7-2">
+                    <mxCell parent="3hXyhc8P0itnaOUiQhe7-0" style="swimlane;collapsible=0;startSize=30;fillColor=none;swimlaneFillColor=none;strokeColor=#181818;strokeWidth=1.5;fontColor=#000000;fontSize=18;fontStyle=0;html=1;align=center;" vertex="1">
+                        <mxGeometry height="676" width="673.5" x="227" y="30" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" plantUmlId="start_0" plantUmlBaseStyle="ellipse;fillColor=#222222;strokeColor=#222222;align=center;" plantUmlBaseValue="" id="3hXyhc8P0itnaOUiQhe7-3">
+                    <mxCell parent="3hXyhc8P0itnaOUiQhe7-0" style="ellipse;fillColor=#222222;strokeColor=#222222;align=center;" vertex="1">
+                        <mxGeometry height="20" width="20" x="119.5" y="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" plantUmlId="e_1" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#181818;align=center;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="3hXyhc8P0itnaOUiQhe7-4">
+                    <mxCell edge="1" parent="3hXyhc8P0itnaOUiQhe7-0" source="3hXyhc8P0itnaOUiQhe7-3" style="endArrow=classic;endSize=8;strokeColor=#181818;align=center;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="3hXyhc8P0itnaOUiQhe7-5">
+                        <mxGeometry relative="1" as="geometry">
+                            <mxPoint x="129.5" y="80" as="sourcePoint"/>
+                            <mxPoint x="129.5" y="100" as="targetPoint"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Membuka fungsi Ajukan KRS" plantUmlId="action_2" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=center;spacingLeft=8;" plantUmlBaseValue="Membuka fungsi Ajukan KRS" id="3hXyhc8P0itnaOUiQhe7-5">
+                    <mxCell parent="3hXyhc8P0itnaOUiQhe7-0" style="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=center;spacingLeft=8;" vertex="1">
+                        <mxGeometry height="34" width="187" x="36" y="100" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" plantUmlId="e_3" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#181818;align=center;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="3hXyhc8P0itnaOUiQhe7-6">
+                    <mxCell edge="1" parent="3hXyhc8P0itnaOUiQhe7-0" source="3hXyhc8P0itnaOUiQhe7-5" style="endArrow=classic;endSize=8;strokeColor=#181818;align=center;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="3hXyhc8P0itnaOUiQhe7-7">
+                        <mxGeometry relative="1" as="geometry">
+                            <Array as="points">
+                                <mxPoint x="129.5" y="139"/>
+                                <mxPoint x="603" y="139"/>
+                            </Array>
+                            <mxPoint x="129.5" y="134" as="sourcePoint"/>
+                            <mxPoint x="603" y="154" as="targetPoint"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Menampilkan daftar mata kuliah yang &#xa;ditawarkan pada semester berjalan" plantUmlId="action_6" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=center;spacingLeft=8;" plantUmlBaseValue="Menampilkan daftar mata kuliah yang &#xa;ditawarkan pada semester berjalan" id="3hXyhc8P0itnaOUiQhe7-7">
+                    <mxCell parent="3hXyhc8P0itnaOUiQhe7-0" style="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=center;spacingLeft=8;" vertex="1">
+                        <mxGeometry height="48" width="244" x="481" y="154" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" plantUmlId="e_7" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#181818;align=center;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="3hXyhc8P0itnaOUiQhe7-8">
+                    <mxCell edge="1" parent="3hXyhc8P0itnaOUiQhe7-0" source="3hXyhc8P0itnaOUiQhe7-7" style="endArrow=classic;endSize=8;strokeColor=#181818;align=center;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="3hXyhc8P0itnaOUiQhe7-9">
+                        <mxGeometry relative="1" as="geometry">
+                            <Array as="points">
+                                <mxPoint x="603" y="207"/>
+                                <mxPoint x="129.5" y="207"/>
+                            </Array>
+                            <mxPoint x="603" y="202" as="sourcePoint"/>
+                            <mxPoint x="129.5" y="222" as="targetPoint"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Memilih mata kuliah" plantUmlId="action_10" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=center;spacingLeft=8;" plantUmlBaseValue="Memilih mata kuliah" id="3hXyhc8P0itnaOUiQhe7-9">
+                    <mxCell parent="3hXyhc8P0itnaOUiQhe7-0" style="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=center;spacingLeft=8;" vertex="1">
+                        <mxGeometry height="34" width="138" x="60.5" y="222" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" plantUmlId="e_11" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#181818;align=center;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="3hXyhc8P0itnaOUiQhe7-10">
+                    <mxCell edge="1" parent="3hXyhc8P0itnaOUiQhe7-0" source="3hXyhc8P0itnaOUiQhe7-9" style="endArrow=classic;endSize=8;strokeColor=#181818;align=center;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="3hXyhc8P0itnaOUiQhe7-11">
+                        <mxGeometry relative="1" as="geometry">
+                            <mxPoint x="129.5" y="256" as="sourcePoint"/>
+                            <mxPoint x="129.5" y="276" as="targetPoint"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Mengajukan KRS" plantUmlId="action_12" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=center;spacingLeft=8;" plantUmlBaseValue="Mengajukan KRS" id="3hXyhc8P0itnaOUiQhe7-11">
+                    <mxCell parent="3hXyhc8P0itnaOUiQhe7-0" style="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=center;spacingLeft=8;" vertex="1">
+                        <mxGeometry height="34" width="116" x="71.5" y="276" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" plantUmlId="e_13" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#181818;align=center;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="3hXyhc8P0itnaOUiQhe7-12">
+                    <mxCell edge="1" parent="3hXyhc8P0itnaOUiQhe7-0" source="3hXyhc8P0itnaOUiQhe7-11" style="endArrow=classic;endSize=8;strokeColor=#181818;align=center;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="3hXyhc8P0itnaOUiQhe7-13">
+                        <mxGeometry relative="1" as="geometry">
+                            <Array as="points">
+                                <mxPoint x="129.5" y="315"/>
+                                <mxPoint x="603" y="315"/>
+                            </Array>
+                            <mxPoint x="129.5" y="310" as="sourcePoint"/>
+                            <mxPoint x="603" y="330" as="targetPoint"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Menerima daftar mata kuliah yang diajukan" plantUmlId="action_16" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=center;spacingLeft=8;" plantUmlBaseValue="Menerima daftar mata kuliah yang diajukan" id="3hXyhc8P0itnaOUiQhe7-13">
+                    <mxCell parent="3hXyhc8P0itnaOUiQhe7-0" style="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=center;spacingLeft=8;" vertex="1">
+                        <mxGeometry height="34" width="273" x="466.5" y="330" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" plantUmlId="e_17" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#181818;align=center;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="3hXyhc8P0itnaOUiQhe7-14">
+                    <mxCell edge="1" parent="3hXyhc8P0itnaOUiQhe7-0" source="3hXyhc8P0itnaOUiQhe7-13" style="endArrow=classic;endSize=8;strokeColor=#181818;align=center;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="3hXyhc8P0itnaOUiQhe7-15">
+                        <mxGeometry relative="1" as="geometry">
+                            <mxPoint x="603" y="364" as="sourcePoint"/>
+                            <mxPoint x="603" y="384" as="targetPoint"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Memeriksa total SKS tidak melebihi batas" plantUmlId="action_18" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=center;spacingLeft=8;" plantUmlBaseValue="Memeriksa total SKS tidak melebihi batas" id="3hXyhc8P0itnaOUiQhe7-15">
+                    <mxCell parent="3hXyhc8P0itnaOUiQhe7-0" style="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=center;spacingLeft=8;" vertex="1">
+                        <mxGeometry height="34" width="260" x="473" y="384" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" plantUmlId="e_19" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#181818;align=center;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="3hXyhc8P0itnaOUiQhe7-16">
+                    <mxCell edge="1" parent="3hXyhc8P0itnaOUiQhe7-0" source="3hXyhc8P0itnaOUiQhe7-15" style="endArrow=classic;endSize=8;strokeColor=#181818;align=center;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="3hXyhc8P0itnaOUiQhe7-17">
+                        <mxGeometry relative="1" as="geometry">
+                            <mxPoint x="603" y="418" as="sourcePoint"/>
+                            <mxPoint x="603" y="438" as="targetPoint"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Memeriksa prasyarat setiap mata kuliah" plantUmlId="action_20" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=center;spacingLeft=8;" plantUmlBaseValue="Memeriksa prasyarat setiap mata kuliah" id="3hXyhc8P0itnaOUiQhe7-17">
+                    <mxCell parent="3hXyhc8P0itnaOUiQhe7-0" style="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=center;spacingLeft=8;" vertex="1">
+                        <mxGeometry height="34" width="252" x="477" y="438" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" plantUmlId="e_21" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#181818;align=center;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="3hXyhc8P0itnaOUiQhe7-18">
+                    <mxCell edge="1" parent="3hXyhc8P0itnaOUiQhe7-0" source="3hXyhc8P0itnaOUiQhe7-17" style="endArrow=classic;endSize=8;strokeColor=#181818;align=center;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="3hXyhc8P0itnaOUiQhe7-19">
+                        <mxGeometry relative="1" as="geometry">
+                            <mxPoint x="603" y="472" as="sourcePoint"/>
+                            <mxPoint x="603" y="492" as="targetPoint"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Memeriksa tidak ada jadwal kuliah yang bentrok" plantUmlId="action_22" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=center;spacingLeft=8;" plantUmlBaseValue="Memeriksa tidak ada jadwal kuliah yang bentrok" id="3hXyhc8P0itnaOUiQhe7-19">
+                    <mxCell parent="3hXyhc8P0itnaOUiQhe7-0" style="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=center;spacingLeft=8;" vertex="1">
+                        <mxGeometry height="34" width="302" x="452" y="492" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" plantUmlId="e_23" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#181818;align=center;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="3hXyhc8P0itnaOUiQhe7-20">
+                    <mxCell edge="1" parent="3hXyhc8P0itnaOUiQhe7-0" source="3hXyhc8P0itnaOUiQhe7-19" style="endArrow=classic;endSize=8;strokeColor=#181818;align=center;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="3hXyhc8P0itnaOUiQhe7-21">
+                        <mxGeometry relative="1" as="geometry">
+                            <mxPoint x="603" y="526" as="sourcePoint"/>
+                            <mxPoint x="603" y="546" as="targetPoint"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="KRS Valid?" plantUmlId="diamond_25" plantUmlBaseStyle="shape=hexagon;perimeter=hexagonPerimeter2;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontSize=11;align=center;" plantUmlBaseValue="KRS Valid?" id="3hXyhc8P0itnaOUiQhe7-21">
+                    <mxCell parent="3hXyhc8P0itnaOUiQhe7-0" style="shape=hexagon;perimeter=hexagonPerimeter2;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontSize=11;align=center;" vertex="1">
+                        <mxGeometry height="24" width="79" x="563.5" y="546" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="[ya]" plantUmlId="e_26" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#181818;align=center;fontSize=11;verticalAlign=bottom;labelPosition=left;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="[ya]" id="3hXyhc8P0itnaOUiQhe7-22">
+                    <mxCell edge="1" parent="3hXyhc8P0itnaOUiQhe7-0" source="3hXyhc8P0itnaOUiQhe7-21" style="endArrow=classic;endSize=8;strokeColor=#181818;align=center;fontSize=11;verticalAlign=bottom;labelPosition=left;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="3hXyhc8P0itnaOUiQhe7-23">
+                        <mxGeometry relative="1" x="-1" as="geometry">
+                            <Array as="points">
+                                <mxPoint x="432" y="558"/>
+                            </Array>
+                            <mxPoint x="563.5" y="558" as="sourcePoint"/>
+                            <mxPoint x="432" y="580" as="targetPoint"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Menyimpan pengajuan KRS dengan status Menunggu Keputusan &#xa;dan menampilkan konfirmasi (extension point: Bukti tersedia)" plantUmlId="action_28" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=center;spacingLeft=8;" plantUmlBaseValue="Menyimpan pengajuan KRS dengan status Menunggu Keputusan &#xa;dan menampilkan konfirmasi (extension point: Bukti tersedia)" id="3hXyhc8P0itnaOUiQhe7-23">
+                    <mxCell parent="3hXyhc8P0itnaOUiQhe7-0" style="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=center;spacingLeft=8;" vertex="1">
+                        <mxGeometry height="48" width="398" x="233" y="580" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="[tidak]" plantUmlId="e_29" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#181818;align=center;fontSize=11;verticalAlign=bottom;labelPosition=right;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="[tidak]" id="3hXyhc8P0itnaOUiQhe7-24">
+                    <mxCell edge="1" parent="3hXyhc8P0itnaOUiQhe7-0" source="3hXyhc8P0itnaOUiQhe7-21" style="endArrow=classic;endSize=8;strokeColor=#181818;align=center;fontSize=11;verticalAlign=bottom;labelPosition=right;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="3hXyhc8P0itnaOUiQhe7-25">
+                        <mxGeometry relative="1" x="-1" as="geometry">
+                            <Array as="points">
+                                <mxPoint x="774" y="558"/>
+                            </Array>
+                            <mxPoint x="642.5" y="558" as="sourcePoint"/>
+                            <mxPoint x="774" y="580" as="targetPoint"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Menolak pengajuan dan menampilkan &#xa;pesan alasan KRS tidak valid" plantUmlId="action_31" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#f8cecc;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=center;spacingLeft=8;" plantUmlBaseValue="Menolak pengajuan dan menampilkan &#xa;pesan alasan KRS tidak valid" id="3hXyhc8P0itnaOUiQhe7-25">
+                    <mxCell parent="3hXyhc8P0itnaOUiQhe7-0" style="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#f8cecc;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=center;spacingLeft=8;" vertex="1">
+                        <mxGeometry height="48" width="245" x="651.5" y="580" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" plantUmlId="merge_32" plantUmlBaseStyle="rhombus;fillColor=#F1F1F1;strokeColor=#181818;align=center;" plantUmlBaseValue="" id="3hXyhc8P0itnaOUiQhe7-26">
+                    <mxCell parent="3hXyhc8P0itnaOUiQhe7-0" style="rhombus;fillColor=#F1F1F1;strokeColor=#181818;align=center;" vertex="1">
+                        <mxGeometry height="24" width="24" x="591" y="634" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" plantUmlId="e_33" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#181818;align=center;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="3hXyhc8P0itnaOUiQhe7-27">
+                    <mxCell edge="1" parent="3hXyhc8P0itnaOUiQhe7-0" source="3hXyhc8P0itnaOUiQhe7-23" style="endArrow=classic;endSize=8;strokeColor=#181818;align=center;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="3hXyhc8P0itnaOUiQhe7-26">
+                        <mxGeometry relative="1" as="geometry">
+                            <Array as="points">
+                                <mxPoint x="432" y="646"/>
+                            </Array>
+                            <mxPoint x="432" y="628" as="sourcePoint"/>
+                            <mxPoint x="591" y="646" as="targetPoint"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" plantUmlId="e_35" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#181818;align=center;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="3hXyhc8P0itnaOUiQhe7-28">
+                    <mxCell edge="1" parent="3hXyhc8P0itnaOUiQhe7-0" source="3hXyhc8P0itnaOUiQhe7-25" style="endArrow=classic;endSize=8;strokeColor=#181818;align=center;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="3hXyhc8P0itnaOUiQhe7-26">
+                        <mxGeometry relative="1" as="geometry">
+                            <Array as="points">
+                                <mxPoint x="774" y="646"/>
+                            </Array>
+                            <mxPoint x="774" y="628" as="sourcePoint"/>
+                            <mxPoint x="615" y="646" as="targetPoint"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" plantUmlId="e_37" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#181818;align=center;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="3hXyhc8P0itnaOUiQhe7-29">
+                    <mxCell edge="1" parent="3hXyhc8P0itnaOUiQhe7-0" source="3hXyhc8P0itnaOUiQhe7-26" style="endArrow=classic;endSize=8;strokeColor=#181818;align=center;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="3hXyhc8P0itnaOUiQhe7-30">
+                        <mxGeometry relative="1" as="geometry">
+                            <mxPoint x="603" y="658" as="sourcePoint"/>
+                            <mxPoint x="603" y="678" as="targetPoint"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" plantUmlId="stop_38" plantUmlBaseStyle="ellipse;shape=endState;fillColor=#222222;strokeColor=#222222;align=center;" plantUmlBaseValue="" id="3hXyhc8P0itnaOUiQhe7-30">
+                    <mxCell parent="3hXyhc8P0itnaOUiQhe7-0" style="ellipse;shape=endState;fillColor=#222222;strokeColor=#222222;align=center;" vertex="1">
+                        <mxGeometry height="22" width="22" x="592" y="678" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

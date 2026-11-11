@@ -1,6 +1,196 @@
 <mxfile host="65bd71144e">
+    <diagram name="LAB-UC01" id="page2">
+        <mxGraphModel dx="1133" dy="554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1400" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="c2" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;whiteSpace=wrap;" value="Tabel 5.3 Skenario Use Case LAB-UC01 Lihat Ketersediaan Peralatan" vertex="1">
+                    <mxGeometry height="28" width="800" x="40" y="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="c3" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Nama use case" vertex="1">
+                    <mxGeometry height="28" width="400" x="40" y="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="c4" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="LAB-UC01 Lihat Ketersediaan Peralatan" vertex="1">
+                    <mxGeometry height="28" width="400" x="440" y="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="c5" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Aktor" vertex="1">
+                    <mxGeometry height="28" width="400" x="40" y="82" as="geometry"/>
+                </mxCell>
+                <mxCell id="c6" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="Peminjam (berlaku untuk Mahasiswa dan Dosen)" vertex="1">
+                    <mxGeometry height="28" width="400" x="440" y="82" as="geometry"/>
+                </mxCell>
+                <mxCell id="c7" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Tujuan" vertex="1">
+                    <mxGeometry height="44" width="400" x="40" y="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="c8" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="Peminjam dapat mengetahui peralatan yang tersedia sebelum mengajukan peminjaman" vertex="1">
+                    <mxGeometry height="44" width="400" x="440" y="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="c9" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Deskripsi" vertex="1">
+                    <mxGeometry height="44" width="400" x="40" y="154" as="geometry"/>
+                </mxCell>
+                <mxCell id="c10" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="Peminjam membuka fungsi ketersediaan dan melihat daftar peralatan beserta status ketersediaannya" vertex="1">
+                    <mxGeometry height="44" width="400" x="440" y="154" as="geometry"/>
+                </mxCell>
+                <mxCell id="c11" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#F2F2F2;fontStyle=1;" value="Kegiatan" vertex="1">
+                    <mxGeometry height="26" width="400" x="40" y="198" as="geometry"/>
+                </mxCell>
+                <mxCell id="c12" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#F2F2F2;fontStyle=1;" value="Respon sistem" vertex="1">
+                    <mxGeometry height="26" width="400" x="440" y="198" as="geometry"/>
+                </mxCell>
+                <mxCell id="c13" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#F2F2F2;fontStyle=1;" value="Skenario Normal" vertex="1">
+                    <mxGeometry height="26" width="800" x="40" y="224" as="geometry"/>
+                </mxCell>
+                <mxCell id="c14" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="1. Peminjam membuka fungsi Lihat Ketersediaan Peralatan" vertex="1">
+                    <mxGeometry height="44" width="400" x="40" y="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="c15" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
+                    <mxGeometry height="44" width="400" x="440" y="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="c16" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
+                    <mxGeometry height="44" width="400" x="40" y="294" as="geometry"/>
+                </mxCell>
+                <mxCell id="c17" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="2. Sistem menampilkan daftar peralatan beserta status ketersediaannya" vertex="1">
+                    <mxGeometry height="44" width="400" x="440" y="294" as="geometry"/>
+                </mxCell>
+                <mxCell id="c18" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#F2F2F2;fontStyle=1;" value="Skenario Alternative" vertex="1">
+                    <mxGeometry height="26" width="800" x="40" y="338" as="geometry"/>
+                </mxCell>
+                <mxCell id="c19" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="3. Tidak ada peralatan yang tersedia pada daftar (cabang dari langkah 2)" vertex="1">
+                    <mxGeometry height="44" width="400" x="40" y="364" as="geometry"/>
+                </mxCell>
+                <mxCell id="c20" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
+                    <mxGeometry height="44" width="400" x="440" y="364" as="geometry"/>
+                </mxCell>
+                <mxCell id="c21" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
+                    <mxGeometry height="44" width="400" x="40" y="408" as="geometry"/>
+                </mxCell>
+                <mxCell id="c22" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="4. Sistem menampilkan pesan tidak ada peralatan yang tersedia" vertex="1">
+                    <mxGeometry height="44" width="400" x="440" y="408" as="geometry"/>
+                </mxCell>
+                <mxCell id="c23" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Skenario Akhir" vertex="1">
+                    <mxGeometry height="76" width="400" x="40" y="452" as="geometry"/>
+                </mxCell>
+                <mxCell id="c24" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="Use case selesai jika daftar peralatan beserta status ketersediaannya ditampilkan; jika tidak ada peralatan yang tersedia, use case selesai dengan pesan tersebut." vertex="1">
+                    <mxGeometry height="76" width="400" x="440" y="452" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="LAB-UC02" id="page5">
+        <mxGraphModel dx="1565" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1400" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="c2" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;whiteSpace=wrap;" value="Tabel 5.6 Skenario Use Case LAB-UC02 Kelola Data Peralatan" vertex="1">
+                    <mxGeometry height="28" width="800" x="40" y="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="c3" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Nama use case" vertex="1">
+                    <mxGeometry height="28" width="400" x="40" y="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="c4" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="LAB-UC02 Kelola Data Peralatan" vertex="1">
+                    <mxGeometry height="28" width="400" x="440" y="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="c5" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Aktor" vertex="1">
+                    <mxGeometry height="28" width="400" x="40" y="82" as="geometry"/>
+                </mxCell>
+                <mxCell id="c6" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="Petugas Laboratorium" vertex="1">
+                    <mxGeometry height="28" width="400" x="440" y="82" as="geometry"/>
+                </mxCell>
+                <mxCell id="c7" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Tujuan" vertex="1">
+                    <mxGeometry height="44" width="400" x="40" y="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="c8" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="Data peralatan terkelola melalui satu fungsi pengelolaan bersama" vertex="1">
+                    <mxGeometry height="44" width="400" x="440" y="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="c9" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Deskripsi" vertex="1">
+                    <mxGeometry height="76" width="400" x="40" y="154" as="geometry"/>
+                </mxCell>
+                <mxCell id="c10" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="Petugas membuka fungsi pengelolaan data peralatan, memilih bentuk pengelolaan, dan menyimpan perubahan. Bentuk tambah, ubah, dan hapus dijabarkan pada tabel khususnya masing-masing" vertex="1">
+                    <mxGeometry height="76" width="400" x="440" y="154" as="geometry"/>
+                </mxCell>
+                <mxCell id="c11" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#F2F2F2;fontStyle=1;" value="Kegiatan" vertex="1">
+                    <mxGeometry height="26" width="400" x="40" y="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="c12" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#F2F2F2;fontStyle=1;" value="Respon sistem" vertex="1">
+                    <mxGeometry height="26" width="400" x="440" y="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="c13" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#F2F2F2;fontStyle=1;" value="Skenario Normal" vertex="1">
+                    <mxGeometry height="26" width="800" x="40" y="256" as="geometry"/>
+                </mxCell>
+                <mxCell id="c14" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="1. Petugas membuka fungsi Kelola Data Peralatan" vertex="1">
+                    <mxGeometry height="28" width="400" x="40" y="282" as="geometry"/>
+                </mxCell>
+                <mxCell id="c15" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
+                    <mxGeometry height="28" width="400" x="440" y="282" as="geometry"/>
+                </mxCell>
+                <mxCell id="c16" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
+                    <mxGeometry height="28" width="400" x="40" y="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="c17" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="2. Sistem menampilkan daftar data peralatan" vertex="1">
+                    <mxGeometry height="28" width="400" x="440" y="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="c18" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="3. Petugas memilih bentuk pengelolaan, yaitu tambah, ubah, atau hapus" vertex="1">
+                    <mxGeometry height="44" width="400" x="40" y="338" as="geometry"/>
+                </mxCell>
+                <mxCell id="c19" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
+                    <mxGeometry height="44" width="400" x="440" y="338" as="geometry"/>
+                </mxCell>
+                <mxCell id="c20" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
+                    <mxGeometry height="44" width="400" x="40" y="382" as="geometry"/>
+                </mxCell>
+                <mxCell id="c21" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="4. Sistem menampilkan formulir sesuai bentuk pengelolaan yang dipilih" vertex="1">
+                    <mxGeometry height="44" width="400" x="440" y="382" as="geometry"/>
+                </mxCell>
+                <mxCell id="c22" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="5. Petugas mengisi atau mengonfirmasi data" vertex="1">
+                    <mxGeometry height="28" width="400" x="40" y="426" as="geometry"/>
+                </mxCell>
+                <mxCell id="c23" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
+                    <mxGeometry height="28" width="400" x="440" y="426" as="geometry"/>
+                </mxCell>
+                <mxCell id="c24" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
+                    <mxGeometry height="44" width="400" x="40" y="454" as="geometry"/>
+                </mxCell>
+                <mxCell id="c25" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="6. Sistem memeriksa kelengkapan dan keabsahan data" vertex="1">
+                    <mxGeometry height="44" width="400" x="440" y="454" as="geometry"/>
+                </mxCell>
+                <mxCell id="c26" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="7. Petugas menyimpan perubahan" vertex="1">
+                    <mxGeometry height="28" width="400" x="40" y="498" as="geometry"/>
+                </mxCell>
+                <mxCell id="c27" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
+                    <mxGeometry height="28" width="400" x="440" y="498" as="geometry"/>
+                </mxCell>
+                <mxCell id="c28" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
+                    <mxGeometry height="44" width="400" x="40" y="526" as="geometry"/>
+                </mxCell>
+                <mxCell id="c29" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="8. Sistem menyimpan perubahan dan menampilkan konfirmasi" vertex="1">
+                    <mxGeometry height="44" width="400" x="440" y="526" as="geometry"/>
+                </mxCell>
+                <mxCell id="c30" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#F2F2F2;fontStyle=1;" value="Skenario Alternative" vertex="1">
+                    <mxGeometry height="26" width="800" x="40" y="570" as="geometry"/>
+                </mxCell>
+                <mxCell id="c31" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="9. Data tidak lengkap atau tidak sah (cabang dari langkah 6)" vertex="1">
+                    <mxGeometry height="44" width="400" x="40" y="596" as="geometry"/>
+                </mxCell>
+                <mxCell id="c32" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
+                    <mxGeometry height="44" width="400" x="440" y="596" as="geometry"/>
+                </mxCell>
+                <mxCell id="c33" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
+                    <mxGeometry height="44" width="400" x="40" y="640" as="geometry"/>
+                </mxCell>
+                <mxCell id="c34" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="10. Sistem menolak penyimpanan dan menampilkan pesan kesalahan data" vertex="1">
+                    <mxGeometry height="44" width="400" x="440" y="640" as="geometry"/>
+                </mxCell>
+                <mxCell id="c35" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Skenario Akhir" vertex="1">
+                    <mxGeometry height="60" width="400" x="40" y="684" as="geometry"/>
+                </mxCell>
+                <mxCell id="c36" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="Use case selesai jika perubahan data peralatan tersimpan; jika data tidak lengkap atau tidak sah, perubahan tidak tersimpan." vertex="1">
+                    <mxGeometry height="60" width="400" x="440" y="684" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
     <diagram name="LAB-UC03" id="page1">
-        <mxGraphModel dx="1084" dy="1017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1400" math="0" shadow="0">
+        <mxGraphModel dx="2609" dy="1276" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1400" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -127,85 +317,8 @@
             </root>
         </mxGraphModel>
     </diagram>
-    <diagram name="LAB-UC01" id="page2">
-        <mxGraphModel dx="843" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1400" math="0" shadow="0">
-            <root>
-                <mxCell id="0"/>
-                <mxCell id="1" parent="0"/>
-                <mxCell id="c2" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;whiteSpace=wrap;" value="Tabel 5.3 Skenario Use Case LAB-UC01 Lihat Ketersediaan Peralatan" vertex="1">
-                    <mxGeometry height="28" width="800" x="40" y="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="c3" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Nama use case" vertex="1">
-                    <mxGeometry height="28" width="400" x="40" y="54" as="geometry"/>
-                </mxCell>
-                <mxCell id="c4" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="LAB-UC01 Lihat Ketersediaan Peralatan" vertex="1">
-                    <mxGeometry height="28" width="400" x="440" y="54" as="geometry"/>
-                </mxCell>
-                <mxCell id="c5" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Aktor" vertex="1">
-                    <mxGeometry height="28" width="400" x="40" y="82" as="geometry"/>
-                </mxCell>
-                <mxCell id="c6" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="Peminjam (berlaku untuk Mahasiswa dan Dosen)" vertex="1">
-                    <mxGeometry height="28" width="400" x="440" y="82" as="geometry"/>
-                </mxCell>
-                <mxCell id="c7" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Tujuan" vertex="1">
-                    <mxGeometry height="44" width="400" x="40" y="110" as="geometry"/>
-                </mxCell>
-                <mxCell id="c8" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="Peminjam dapat mengetahui peralatan yang tersedia sebelum mengajukan peminjaman" vertex="1">
-                    <mxGeometry height="44" width="400" x="440" y="110" as="geometry"/>
-                </mxCell>
-                <mxCell id="c9" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Deskripsi" vertex="1">
-                    <mxGeometry height="44" width="400" x="40" y="154" as="geometry"/>
-                </mxCell>
-                <mxCell id="c10" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="Peminjam membuka fungsi ketersediaan dan melihat daftar peralatan beserta status ketersediaannya" vertex="1">
-                    <mxGeometry height="44" width="400" x="440" y="154" as="geometry"/>
-                </mxCell>
-                <mxCell id="c11" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#F2F2F2;fontStyle=1;" value="Kegiatan" vertex="1">
-                    <mxGeometry height="26" width="400" x="40" y="198" as="geometry"/>
-                </mxCell>
-                <mxCell id="c12" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#F2F2F2;fontStyle=1;" value="Respon sistem" vertex="1">
-                    <mxGeometry height="26" width="400" x="440" y="198" as="geometry"/>
-                </mxCell>
-                <mxCell id="c13" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#F2F2F2;fontStyle=1;" value="Skenario Normal" vertex="1">
-                    <mxGeometry height="26" width="800" x="40" y="224" as="geometry"/>
-                </mxCell>
-                <mxCell id="c14" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="1. Peminjam membuka fungsi Lihat Ketersediaan Peralatan" vertex="1">
-                    <mxGeometry height="44" width="400" x="40" y="250" as="geometry"/>
-                </mxCell>
-                <mxCell id="c15" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
-                    <mxGeometry height="44" width="400" x="440" y="250" as="geometry"/>
-                </mxCell>
-                <mxCell id="c16" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
-                    <mxGeometry height="44" width="400" x="40" y="294" as="geometry"/>
-                </mxCell>
-                <mxCell id="c17" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="2. Sistem menampilkan daftar peralatan beserta status ketersediaannya" vertex="1">
-                    <mxGeometry height="44" width="400" x="440" y="294" as="geometry"/>
-                </mxCell>
-                <mxCell id="c18" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#F2F2F2;fontStyle=1;" value="Skenario Alternative" vertex="1">
-                    <mxGeometry height="26" width="800" x="40" y="338" as="geometry"/>
-                </mxCell>
-                <mxCell id="c19" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="3. Tidak ada peralatan yang tersedia pada daftar (cabang dari langkah 2)" vertex="1">
-                    <mxGeometry height="44" width="400" x="40" y="364" as="geometry"/>
-                </mxCell>
-                <mxCell id="c20" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
-                    <mxGeometry height="44" width="400" x="440" y="364" as="geometry"/>
-                </mxCell>
-                <mxCell id="c21" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
-                    <mxGeometry height="44" width="400" x="40" y="408" as="geometry"/>
-                </mxCell>
-                <mxCell id="c22" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="4. Sistem menampilkan pesan tidak ada peralatan yang tersedia" vertex="1">
-                    <mxGeometry height="44" width="400" x="440" y="408" as="geometry"/>
-                </mxCell>
-                <mxCell id="c23" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Skenario Akhir" vertex="1">
-                    <mxGeometry height="76" width="400" x="40" y="452" as="geometry"/>
-                </mxCell>
-                <mxCell id="c24" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="Use case selesai jika daftar peralatan beserta status ketersediaannya ditampilkan; jika tidak ada peralatan yang tersedia, use case selesai dengan pesan tersebut." vertex="1">
-                    <mxGeometry height="76" width="400" x="440" y="452" as="geometry"/>
-                </mxCell>
-            </root>
-        </mxGraphModel>
-    </diagram>
     <diagram name="LAB-UC04" id="page3">
-        <mxGraphModel dx="843" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1400" math="0" shadow="0">
+        <mxGraphModel dx="1411" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1400" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -294,7 +407,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="LAB-UC05" id="page4">
-        <mxGraphModel dx="843" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1400" math="0" shadow="0">
+        <mxGraphModel dx="1305" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1400" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -382,18 +495,18 @@
             </root>
         </mxGraphModel>
     </diagram>
-    <diagram name="LAB-UC02" id="page5">
-        <mxGraphModel dx="843" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1400" math="0" shadow="0">
+    <diagram name="LAB-UC06" id="page9">
+        <mxGraphModel dx="1459" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1400" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="c2" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;whiteSpace=wrap;" value="Tabel 5.6 Skenario Use Case LAB-UC02 Kelola Data Peralatan" vertex="1">
+                <mxCell id="c2" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;whiteSpace=wrap;" value="Tabel 5.10 Skenario Use Case LAB-UC06 Proses Keputusan Peminjaman" vertex="1">
                     <mxGeometry height="28" width="800" x="40" y="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="c3" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Nama use case" vertex="1">
                     <mxGeometry height="28" width="400" x="40" y="54" as="geometry"/>
                 </mxCell>
-                <mxCell id="c4" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="LAB-UC02 Kelola Data Peralatan" vertex="1">
+                <mxCell id="c4" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="LAB-UC06 Proses Keputusan Peminjaman" vertex="1">
                     <mxGeometry height="28" width="400" x="440" y="54" as="geometry"/>
                 </mxCell>
                 <mxCell id="c5" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Aktor" vertex="1">
@@ -405,37 +518,37 @@
                 <mxCell id="c7" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Tujuan" vertex="1">
                     <mxGeometry height="44" width="400" x="40" y="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="c8" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="Data peralatan terkelola melalui satu fungsi pengelolaan bersama" vertex="1">
+                <mxCell id="c8" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="Pengajuan peminjaman mendapat keputusan setuju atau tolak" vertex="1">
                     <mxGeometry height="44" width="400" x="440" y="110" as="geometry"/>
                 </mxCell>
                 <mxCell id="c9" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Deskripsi" vertex="1">
-                    <mxGeometry height="76" width="400" x="40" y="154" as="geometry"/>
+                    <mxGeometry height="60" width="400" x="40" y="154" as="geometry"/>
                 </mxCell>
-                <mxCell id="c10" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="Petugas membuka fungsi pengelolaan data peralatan, memilih bentuk pengelolaan, dan menyimpan perubahan. Bentuk tambah, ubah, dan hapus dijabarkan pada tabel khususnya masing-masing" vertex="1">
-                    <mxGeometry height="76" width="400" x="440" y="154" as="geometry"/>
+                <mxCell id="c10" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="Petugas memeriksa pengajuan yang berstatus Menunggu Keputusan, menetapkan persetujuan atau penolakan, dan sistem menyampaikan keputusan" vertex="1">
+                    <mxGeometry height="60" width="400" x="440" y="154" as="geometry"/>
                 </mxCell>
                 <mxCell id="c11" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#F2F2F2;fontStyle=1;" value="Kegiatan" vertex="1">
-                    <mxGeometry height="26" width="400" x="40" y="230" as="geometry"/>
+                    <mxGeometry height="26" width="400" x="40" y="214" as="geometry"/>
                 </mxCell>
                 <mxCell id="c12" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#F2F2F2;fontStyle=1;" value="Respon sistem" vertex="1">
-                    <mxGeometry height="26" width="400" x="440" y="230" as="geometry"/>
+                    <mxGeometry height="26" width="400" x="440" y="214" as="geometry"/>
                 </mxCell>
                 <mxCell id="c13" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#F2F2F2;fontStyle=1;" value="Skenario Normal" vertex="1">
-                    <mxGeometry height="26" width="800" x="40" y="256" as="geometry"/>
+                    <mxGeometry height="26" width="800" x="40" y="240" as="geometry"/>
                 </mxCell>
-                <mxCell id="c14" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="1. Petugas membuka fungsi Kelola Data Peralatan" vertex="1">
-                    <mxGeometry height="28" width="400" x="40" y="282" as="geometry"/>
+                <mxCell id="c14" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="1. Petugas membuka daftar pengajuan yang berstatus Menunggu Keputusan" vertex="1">
+                    <mxGeometry height="44" width="400" x="40" y="266" as="geometry"/>
                 </mxCell>
                 <mxCell id="c15" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
-                    <mxGeometry height="28" width="400" x="440" y="282" as="geometry"/>
+                    <mxGeometry height="44" width="400" x="440" y="266" as="geometry"/>
                 </mxCell>
                 <mxCell id="c16" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
                     <mxGeometry height="28" width="400" x="40" y="310" as="geometry"/>
                 </mxCell>
-                <mxCell id="c17" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="2. Sistem menampilkan daftar data peralatan" vertex="1">
+                <mxCell id="c17" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="2. Sistem menampilkan daftar pengajuan tersebut" vertex="1">
                     <mxGeometry height="28" width="400" x="440" y="310" as="geometry"/>
                 </mxCell>
-                <mxCell id="c18" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="3. Petugas memilih bentuk pengelolaan, yaitu tambah, ubah, atau hapus" vertex="1">
+                <mxCell id="c18" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="3. Petugas memilih pengajuan dan menetapkan persetujuan" vertex="1">
                     <mxGeometry height="44" width="400" x="40" y="338" as="geometry"/>
                 </mxCell>
                 <mxCell id="c19" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
@@ -444,59 +557,139 @@
                 <mxCell id="c20" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
                     <mxGeometry height="44" width="400" x="40" y="382" as="geometry"/>
                 </mxCell>
-                <mxCell id="c21" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="4. Sistem menampilkan formulir sesuai bentuk pengelolaan yang dipilih" vertex="1">
+                <mxCell id="c21" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="4. Sistem mengubah status pengajuan menjadi Disetujui dan menampilkan konfirmasi" vertex="1">
                     <mxGeometry height="44" width="400" x="440" y="382" as="geometry"/>
                 </mxCell>
-                <mxCell id="c22" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="5. Petugas mengisi atau mengonfirmasi data" vertex="1">
-                    <mxGeometry height="28" width="400" x="40" y="426" as="geometry"/>
+                <mxCell id="c22" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#F2F2F2;fontStyle=1;" value="Skenario Alternative" vertex="1">
+                    <mxGeometry height="26" width="800" x="40" y="426" as="geometry"/>
                 </mxCell>
-                <mxCell id="c23" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
-                    <mxGeometry height="28" width="400" x="440" y="426" as="geometry"/>
+                <mxCell id="c23" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="5. Petugas menetapkan penolakan (cabang dari langkah 4)" vertex="1">
+                    <mxGeometry height="44" width="400" x="40" y="452" as="geometry"/>
                 </mxCell>
                 <mxCell id="c24" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
-                    <mxGeometry height="44" width="400" x="40" y="454" as="geometry"/>
+                    <mxGeometry height="44" width="400" x="440" y="452" as="geometry"/>
                 </mxCell>
-                <mxCell id="c25" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="6. Sistem memeriksa kelengkapan dan keabsahan data" vertex="1">
-                    <mxGeometry height="44" width="400" x="440" y="454" as="geometry"/>
+                <mxCell id="c25" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
+                    <mxGeometry height="44" width="400" x="40" y="496" as="geometry"/>
                 </mxCell>
-                <mxCell id="c26" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="7. Petugas menyimpan perubahan" vertex="1">
-                    <mxGeometry height="28" width="400" x="40" y="498" as="geometry"/>
+                <mxCell id="c26" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="6. Sistem mengubah status pengajuan menjadi Ditolak dan menampilkan konfirmasi penolakan" vertex="1">
+                    <mxGeometry height="44" width="400" x="440" y="496" as="geometry"/>
                 </mxCell>
-                <mxCell id="c27" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
-                    <mxGeometry height="28" width="400" x="440" y="498" as="geometry"/>
+                <mxCell id="c27" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="7. Pengajuan tidak ditemukan atau statusnya sudah berubah (cabang dari langkah 2)" vertex="1">
+                    <mxGeometry height="44" width="400" x="40" y="540" as="geometry"/>
                 </mxCell>
                 <mxCell id="c28" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
-                    <mxGeometry height="44" width="400" x="40" y="526" as="geometry"/>
+                    <mxGeometry height="44" width="400" x="440" y="540" as="geometry"/>
                 </mxCell>
-                <mxCell id="c29" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="8. Sistem menyimpan perubahan dan menampilkan konfirmasi" vertex="1">
-                    <mxGeometry height="44" width="400" x="440" y="526" as="geometry"/>
+                <mxCell id="c29" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
+                    <mxGeometry height="44" width="400" x="40" y="584" as="geometry"/>
                 </mxCell>
-                <mxCell id="c30" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#F2F2F2;fontStyle=1;" value="Skenario Alternative" vertex="1">
-                    <mxGeometry height="26" width="800" x="40" y="570" as="geometry"/>
+                <mxCell id="c30" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="8. Sistem menampilkan pesan pengajuan tidak dapat diproses" vertex="1">
+                    <mxGeometry height="44" width="400" x="440" y="584" as="geometry"/>
                 </mxCell>
-                <mxCell id="c31" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="9. Data tidak lengkap atau tidak sah (cabang dari langkah 6)" vertex="1">
-                    <mxGeometry height="44" width="400" x="40" y="596" as="geometry"/>
+                <mxCell id="c31" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Skenario Akhir" vertex="1">
+                    <mxGeometry height="60" width="400" x="40" y="628" as="geometry"/>
                 </mxCell>
-                <mxCell id="c32" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
-                    <mxGeometry height="44" width="400" x="440" y="596" as="geometry"/>
+                <mxCell id="c32" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="Use case selesai jika pengajuan berstatus Disetujui atau Ditolak; jika pengajuan tidak dapat diproses, status tidak berubah." vertex="1">
+                    <mxGeometry height="60" width="400" x="440" y="628" as="geometry"/>
                 </mxCell>
-                <mxCell id="c33" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
-                    <mxGeometry height="44" width="400" x="40" y="640" as="geometry"/>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="LAB-UC07" id="page10">
+        <mxGraphModel dx="2609" dy="1276" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1400" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="c2" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;whiteSpace=wrap;" value="Tabel 5.11 Skenario Use Case LAB-UC07 Lihat Laporan Peminjaman" vertex="1">
+                    <mxGeometry height="28" width="800" x="40" y="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="c34" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="10. Sistem menolak penyimpanan dan menampilkan pesan kesalahan data" vertex="1">
-                    <mxGeometry height="44" width="400" x="440" y="640" as="geometry"/>
+                <mxCell id="c3" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Nama use case" vertex="1">
+                    <mxGeometry height="28" width="400" x="40" y="54" as="geometry"/>
                 </mxCell>
-                <mxCell id="c35" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Skenario Akhir" vertex="1">
-                    <mxGeometry height="60" width="400" x="40" y="684" as="geometry"/>
+                <mxCell id="c4" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="LAB-UC07 Lihat Laporan Peminjaman" vertex="1">
+                    <mxGeometry height="28" width="400" x="440" y="54" as="geometry"/>
                 </mxCell>
-                <mxCell id="c36" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="Use case selesai jika perubahan data peralatan tersimpan; jika data tidak lengkap atau tidak sah, perubahan tidak tersimpan." vertex="1">
-                    <mxGeometry height="60" width="400" x="440" y="684" as="geometry"/>
+                <mxCell id="c5" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Aktor" vertex="1">
+                    <mxGeometry height="28" width="400" x="40" y="82" as="geometry"/>
+                </mxCell>
+                <mxCell id="c6" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="Kepala Laboratorium" vertex="1">
+                    <mxGeometry height="28" width="400" x="440" y="82" as="geometry"/>
+                </mxCell>
+                <mxCell id="c7" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Tujuan" vertex="1">
+                    <mxGeometry height="44" width="400" x="40" y="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="c8" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="Laporan peminjaman dapat dilihat oleh kepala laboratorium" vertex="1">
+                    <mxGeometry height="44" width="400" x="440" y="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="c9" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Deskripsi" vertex="1">
+                    <mxGeometry height="60" width="400" x="40" y="154" as="geometry"/>
+                </mxCell>
+                <mxCell id="c10" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="Kepala Laboratorium membuka fungsi laporan dan melihat laporan peminjaman pada periode yang dipilih" vertex="1">
+                    <mxGeometry height="60" width="400" x="440" y="154" as="geometry"/>
+                </mxCell>
+                <mxCell id="c11" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#F2F2F2;fontStyle=1;" value="Kegiatan" vertex="1">
+                    <mxGeometry height="26" width="400" x="40" y="214" as="geometry"/>
+                </mxCell>
+                <mxCell id="c12" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#F2F2F2;fontStyle=1;" value="Respon sistem" vertex="1">
+                    <mxGeometry height="26" width="400" x="440" y="214" as="geometry"/>
+                </mxCell>
+                <mxCell id="c13" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#F2F2F2;fontStyle=1;" value="Skenario Normal" vertex="1">
+                    <mxGeometry height="26" width="800" x="40" y="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="c14" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="1. Kepala Laboratorium membuka fungsi Lihat Laporan Peminjaman" vertex="1">
+                    <mxGeometry height="44" width="400" x="40" y="266" as="geometry"/>
+                </mxCell>
+                <mxCell id="c15" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
+                    <mxGeometry height="44" width="400" x="440" y="266" as="geometry"/>
+                </mxCell>
+                <mxCell id="c16" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
+                    <mxGeometry height="28" width="400" x="40" y="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="c17" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="2. Sistem menampilkan daftar periode laporan" vertex="1">
+                    <mxGeometry height="28" width="400" x="440" y="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="c18" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="3. Kepala Laboratorium memilih periode" vertex="1">
+                    <mxGeometry height="28" width="400" x="40" y="338" as="geometry"/>
+                </mxCell>
+                <mxCell id="c19" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
+                    <mxGeometry height="28" width="400" x="440" y="338" as="geometry"/>
+                </mxCell>
+                <mxCell id="c20" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
+                    <mxGeometry height="44" width="400" x="40" y="366" as="geometry"/>
+                </mxCell>
+                <mxCell id="c21" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="4. Sistem menampilkan laporan peminjaman periode tersebut" vertex="1">
+                    <mxGeometry height="44" width="400" x="440" y="366" as="geometry"/>
+                </mxCell>
+                <mxCell id="c22" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#F2F2F2;fontStyle=1;" value="Skenario Alternative" vertex="1">
+                    <mxGeometry height="26" width="800" x="40" y="410" as="geometry"/>
+                </mxCell>
+                <mxCell id="c23" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="5. Tidak ada data peminjaman pada periode yang dipilih (cabang dari langkah 4)" vertex="1">
+                    <mxGeometry height="44" width="400" x="40" y="436" as="geometry"/>
+                </mxCell>
+                <mxCell id="c24" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
+                    <mxGeometry height="44" width="400" x="440" y="436" as="geometry"/>
+                </mxCell>
+                <mxCell id="c25" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
+                    <mxGeometry height="44" width="400" x="40" y="480" as="geometry"/>
+                </mxCell>
+                <mxCell id="c26" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="6. Sistem menampilkan pesan tidak ada data peminjaman pada periode tersebut" vertex="1">
+                    <mxGeometry height="44" width="400" x="440" y="480" as="geometry"/>
+                </mxCell>
+                <mxCell id="c27" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Skenario Akhir" vertex="1">
+                    <mxGeometry height="60" width="400" x="40" y="524" as="geometry"/>
+                </mxCell>
+                <mxCell id="c28" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="Use case selesai jika laporan periode yang dipilih ditampilkan; jika tidak ada data, use case selesai dengan pesan tersebut." vertex="1">
+                    <mxGeometry height="60" width="400" x="440" y="524" as="geometry"/>
+                </mxCell>
+                <mxCell id="c29" parent="1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=12;" value="Keterangan: satu-satunya use case Kepala Laboratorium. Tabel ini berdiri sendiri dan tidak memuat langkah include, extend, generalization, atau realization." vertex="1">
+                    <mxGeometry height="44" width="800" x="40" y="594" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram name="LAB-UC08" id="page6">
-        <mxGraphModel dx="843" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1400" math="0" shadow="0">
+        <mxGraphModel dx="1435" dy="702" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1400" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -600,7 +793,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="LAB-UC09" id="page7">
-        <mxGraphModel dx="843" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1400" math="0" shadow="0">
+        <mxGraphModel dx="1459" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1400" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -704,7 +897,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="LAB-UC10" id="page8">
-        <mxGraphModel dx="843" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1400" math="0" shadow="0">
+        <mxGraphModel dx="1411" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1400" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -795,201 +988,8 @@
             </root>
         </mxGraphModel>
     </diagram>
-    <diagram name="LAB-UC06" id="page9">
-        <mxGraphModel dx="843" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1400" math="0" shadow="0">
-            <root>
-                <mxCell id="0"/>
-                <mxCell id="1" parent="0"/>
-                <mxCell id="c2" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;whiteSpace=wrap;" value="Tabel 5.10 Skenario Use Case LAB-UC06 Proses Keputusan Peminjaman" vertex="1">
-                    <mxGeometry height="28" width="800" x="40" y="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="c3" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Nama use case" vertex="1">
-                    <mxGeometry height="28" width="400" x="40" y="54" as="geometry"/>
-                </mxCell>
-                <mxCell id="c4" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="LAB-UC06 Proses Keputusan Peminjaman" vertex="1">
-                    <mxGeometry height="28" width="400" x="440" y="54" as="geometry"/>
-                </mxCell>
-                <mxCell id="c5" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Aktor" vertex="1">
-                    <mxGeometry height="28" width="400" x="40" y="82" as="geometry"/>
-                </mxCell>
-                <mxCell id="c6" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="Petugas Laboratorium" vertex="1">
-                    <mxGeometry height="28" width="400" x="440" y="82" as="geometry"/>
-                </mxCell>
-                <mxCell id="c7" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Tujuan" vertex="1">
-                    <mxGeometry height="44" width="400" x="40" y="110" as="geometry"/>
-                </mxCell>
-                <mxCell id="c8" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="Pengajuan peminjaman mendapat keputusan setuju atau tolak" vertex="1">
-                    <mxGeometry height="44" width="400" x="440" y="110" as="geometry"/>
-                </mxCell>
-                <mxCell id="c9" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Deskripsi" vertex="1">
-                    <mxGeometry height="60" width="400" x="40" y="154" as="geometry"/>
-                </mxCell>
-                <mxCell id="c10" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="Petugas memeriksa pengajuan yang berstatus Menunggu Keputusan, menetapkan persetujuan atau penolakan, dan sistem menyampaikan keputusan" vertex="1">
-                    <mxGeometry height="60" width="400" x="440" y="154" as="geometry"/>
-                </mxCell>
-                <mxCell id="c11" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#F2F2F2;fontStyle=1;" value="Kegiatan" vertex="1">
-                    <mxGeometry height="26" width="400" x="40" y="214" as="geometry"/>
-                </mxCell>
-                <mxCell id="c12" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#F2F2F2;fontStyle=1;" value="Respon sistem" vertex="1">
-                    <mxGeometry height="26" width="400" x="440" y="214" as="geometry"/>
-                </mxCell>
-                <mxCell id="c13" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#F2F2F2;fontStyle=1;" value="Skenario Normal" vertex="1">
-                    <mxGeometry height="26" width="800" x="40" y="240" as="geometry"/>
-                </mxCell>
-                <mxCell id="c14" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="1. Petugas membuka daftar pengajuan yang berstatus Menunggu Keputusan" vertex="1">
-                    <mxGeometry height="44" width="400" x="40" y="266" as="geometry"/>
-                </mxCell>
-                <mxCell id="c15" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
-                    <mxGeometry height="44" width="400" x="440" y="266" as="geometry"/>
-                </mxCell>
-                <mxCell id="c16" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
-                    <mxGeometry height="28" width="400" x="40" y="310" as="geometry"/>
-                </mxCell>
-                <mxCell id="c17" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="2. Sistem menampilkan daftar pengajuan tersebut" vertex="1">
-                    <mxGeometry height="28" width="400" x="440" y="310" as="geometry"/>
-                </mxCell>
-                <mxCell id="c18" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="3. Petugas memilih pengajuan dan menetapkan persetujuan" vertex="1">
-                    <mxGeometry height="44" width="400" x="40" y="338" as="geometry"/>
-                </mxCell>
-                <mxCell id="c19" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
-                    <mxGeometry height="44" width="400" x="440" y="338" as="geometry"/>
-                </mxCell>
-                <mxCell id="c20" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
-                    <mxGeometry height="44" width="400" x="40" y="382" as="geometry"/>
-                </mxCell>
-                <mxCell id="c21" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="4. Sistem mengubah status pengajuan menjadi Disetujui dan menampilkan konfirmasi" vertex="1">
-                    <mxGeometry height="44" width="400" x="440" y="382" as="geometry"/>
-                </mxCell>
-                <mxCell id="c22" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#F2F2F2;fontStyle=1;" value="Skenario Alternative" vertex="1">
-                    <mxGeometry height="26" width="800" x="40" y="426" as="geometry"/>
-                </mxCell>
-                <mxCell id="c23" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="5. Petugas menetapkan penolakan (cabang dari langkah 4)" vertex="1">
-                    <mxGeometry height="44" width="400" x="40" y="452" as="geometry"/>
-                </mxCell>
-                <mxCell id="c24" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
-                    <mxGeometry height="44" width="400" x="440" y="452" as="geometry"/>
-                </mxCell>
-                <mxCell id="c25" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
-                    <mxGeometry height="44" width="400" x="40" y="496" as="geometry"/>
-                </mxCell>
-                <mxCell id="c26" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="6. Sistem mengubah status pengajuan menjadi Ditolak dan menampilkan konfirmasi penolakan" vertex="1">
-                    <mxGeometry height="44" width="400" x="440" y="496" as="geometry"/>
-                </mxCell>
-                <mxCell id="c27" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="7. Pengajuan tidak ditemukan atau statusnya sudah berubah (cabang dari langkah 2)" vertex="1">
-                    <mxGeometry height="44" width="400" x="40" y="540" as="geometry"/>
-                </mxCell>
-                <mxCell id="c28" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
-                    <mxGeometry height="44" width="400" x="440" y="540" as="geometry"/>
-                </mxCell>
-                <mxCell id="c29" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
-                    <mxGeometry height="44" width="400" x="40" y="584" as="geometry"/>
-                </mxCell>
-                <mxCell id="c30" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="8. Sistem menampilkan pesan pengajuan tidak dapat diproses" vertex="1">
-                    <mxGeometry height="44" width="400" x="440" y="584" as="geometry"/>
-                </mxCell>
-                <mxCell id="c31" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Skenario Akhir" vertex="1">
-                    <mxGeometry height="60" width="400" x="40" y="628" as="geometry"/>
-                </mxCell>
-                <mxCell id="c32" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="Use case selesai jika pengajuan berstatus Disetujui atau Ditolak; jika pengajuan tidak dapat diproses, status tidak berubah." vertex="1">
-                    <mxGeometry height="60" width="400" x="440" y="628" as="geometry"/>
-                </mxCell>
-            </root>
-        </mxGraphModel>
-    </diagram>
-    <diagram name="LAB-UC07" id="page10">
-        <mxGraphModel dx="843" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1400" math="0" shadow="0">
-            <root>
-                <mxCell id="0"/>
-                <mxCell id="1" parent="0"/>
-                <mxCell id="c2" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;whiteSpace=wrap;" value="Tabel 5.11 Skenario Use Case LAB-UC07 Lihat Laporan Peminjaman" vertex="1">
-                    <mxGeometry height="28" width="800" x="40" y="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="c3" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Nama use case" vertex="1">
-                    <mxGeometry height="28" width="400" x="40" y="54" as="geometry"/>
-                </mxCell>
-                <mxCell id="c4" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="LAB-UC07 Lihat Laporan Peminjaman" vertex="1">
-                    <mxGeometry height="28" width="400" x="440" y="54" as="geometry"/>
-                </mxCell>
-                <mxCell id="c5" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Aktor" vertex="1">
-                    <mxGeometry height="28" width="400" x="40" y="82" as="geometry"/>
-                </mxCell>
-                <mxCell id="c6" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="Kepala Laboratorium" vertex="1">
-                    <mxGeometry height="28" width="400" x="440" y="82" as="geometry"/>
-                </mxCell>
-                <mxCell id="c7" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Tujuan" vertex="1">
-                    <mxGeometry height="44" width="400" x="40" y="110" as="geometry"/>
-                </mxCell>
-                <mxCell id="c8" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="Laporan peminjaman dapat dilihat oleh kepala laboratorium" vertex="1">
-                    <mxGeometry height="44" width="400" x="440" y="110" as="geometry"/>
-                </mxCell>
-                <mxCell id="c9" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Deskripsi" vertex="1">
-                    <mxGeometry height="60" width="400" x="40" y="154" as="geometry"/>
-                </mxCell>
-                <mxCell id="c10" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="Kepala Laboratorium membuka fungsi laporan dan melihat laporan peminjaman pada periode yang dipilih" vertex="1">
-                    <mxGeometry height="60" width="400" x="440" y="154" as="geometry"/>
-                </mxCell>
-                <mxCell id="c11" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#F2F2F2;fontStyle=1;" value="Kegiatan" vertex="1">
-                    <mxGeometry height="26" width="400" x="40" y="214" as="geometry"/>
-                </mxCell>
-                <mxCell id="c12" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#F2F2F2;fontStyle=1;" value="Respon sistem" vertex="1">
-                    <mxGeometry height="26" width="400" x="440" y="214" as="geometry"/>
-                </mxCell>
-                <mxCell id="c13" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#F2F2F2;fontStyle=1;" value="Skenario Normal" vertex="1">
-                    <mxGeometry height="26" width="800" x="40" y="240" as="geometry"/>
-                </mxCell>
-                <mxCell id="c14" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="1. Kepala Laboratorium membuka fungsi Lihat Laporan Peminjaman" vertex="1">
-                    <mxGeometry height="44" width="400" x="40" y="266" as="geometry"/>
-                </mxCell>
-                <mxCell id="c15" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
-                    <mxGeometry height="44" width="400" x="440" y="266" as="geometry"/>
-                </mxCell>
-                <mxCell id="c16" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
-                    <mxGeometry height="28" width="400" x="40" y="310" as="geometry"/>
-                </mxCell>
-                <mxCell id="c17" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="2. Sistem menampilkan daftar periode laporan" vertex="1">
-                    <mxGeometry height="28" width="400" x="440" y="310" as="geometry"/>
-                </mxCell>
-                <mxCell id="c18" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="3. Kepala Laboratorium memilih periode" vertex="1">
-                    <mxGeometry height="28" width="400" x="40" y="338" as="geometry"/>
-                </mxCell>
-                <mxCell id="c19" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
-                    <mxGeometry height="28" width="400" x="440" y="338" as="geometry"/>
-                </mxCell>
-                <mxCell id="c20" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
-                    <mxGeometry height="44" width="400" x="40" y="366" as="geometry"/>
-                </mxCell>
-                <mxCell id="c21" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="4. Sistem menampilkan laporan peminjaman periode tersebut" vertex="1">
-                    <mxGeometry height="44" width="400" x="440" y="366" as="geometry"/>
-                </mxCell>
-                <mxCell id="c22" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#F2F2F2;fontStyle=1;" value="Skenario Alternative" vertex="1">
-                    <mxGeometry height="26" width="800" x="40" y="410" as="geometry"/>
-                </mxCell>
-                <mxCell id="c23" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="5. Tidak ada data peminjaman pada periode yang dipilih (cabang dari langkah 4)" vertex="1">
-                    <mxGeometry height="44" width="400" x="40" y="436" as="geometry"/>
-                </mxCell>
-                <mxCell id="c24" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
-                    <mxGeometry height="44" width="400" x="440" y="436" as="geometry"/>
-                </mxCell>
-                <mxCell id="c25" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="" vertex="1">
-                    <mxGeometry height="44" width="400" x="40" y="480" as="geometry"/>
-                </mxCell>
-                <mxCell id="c26" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="6. Sistem menampilkan pesan tidak ada data peminjaman pada periode tersebut" vertex="1">
-                    <mxGeometry height="44" width="400" x="440" y="480" as="geometry"/>
-                </mxCell>
-                <mxCell id="c27" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Skenario Akhir" vertex="1">
-                    <mxGeometry height="60" width="400" x="40" y="524" as="geometry"/>
-                </mxCell>
-                <mxCell id="c28" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingRight=6;spacingTop=3;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="Use case selesai jika laporan periode yang dipilih ditampilkan; jika tidak ada data, use case selesai dengan pesan tersebut." vertex="1">
-                    <mxGeometry height="60" width="400" x="440" y="524" as="geometry"/>
-                </mxCell>
-                <mxCell id="c29" parent="1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=12;" value="Keterangan: satu-satunya use case Kepala Laboratorium. Tabel ini berdiri sendiri dan tidak memuat langkah include, extend, generalization, atau realization." vertex="1">
-                    <mxGeometry height="44" width="800" x="40" y="594" as="geometry"/>
-                </mxCell>
-            </root>
-        </mxGraphModel>
-    </diagram>
     <diagram name="LAB-UC11" id="page11">
-        <mxGraphModel dx="1220" dy="1145" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1400" math="0" shadow="0">
+        <mxGraphModel dx="2327" dy="1138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1400" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -1141,7 +1141,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="LAB-UC12" id="page12">
-        <mxGraphModel dx="843" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1400" math="0" shadow="0">
+        <mxGraphModel dx="1411" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1400" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>

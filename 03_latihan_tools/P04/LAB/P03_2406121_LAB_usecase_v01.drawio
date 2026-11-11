@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="Halaman-1" id="ZNDyzrnstJTaDmpX4uIA">
-        <mxGraphModel dx="678" dy="1265" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1248" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -13,7 +13,7 @@
                 <mxCell id="IXcDOAcr8JXwdcaZZMAd-1" parent="H31Xv0CxFdL9cmwElTgS-1" style="ellipse;fontStyle=1" value="Proses Keputusan Peminjaman" vertex="1">
                     <mxGeometry height="80" width="195" x="365" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="IXcDOAcr8JXwdcaZZMAd-2" parent="H31Xv0CxFdL9cmwElTgS-1" style="ellipse;fontStyle=1;dashed=1;" value="Ajukan peminjaman" vertex="1">
+                <mxCell id="IXcDOAcr8JXwdcaZZMAd-2" parent="H31Xv0CxFdL9cmwElTgS-1" style="ellipse;fontStyle=1;" value="Ajukan peminjaman" vertex="1">
                     <mxGeometry height="80" width="121" x="73" y="400" as="geometry"/>
                 </mxCell>
                 <mxCell id="IXcDOAcr8JXwdcaZZMAd-4" parent="H31Xv0CxFdL9cmwElTgS-1" style="ellipse;fontStyle=1" value="Lihat laporan peminjaman" vertex="1">
@@ -22,7 +22,7 @@
                 <mxCell id="IXcDOAcr8JXwdcaZZMAd-5" parent="H31Xv0CxFdL9cmwElTgS-1" style="ellipse;fontStyle=1" value="Cetak Bukti Pengajuan" vertex="1">
                     <mxGeometry height="90" width="185" x="41" y="235" as="geometry"/>
                 </mxCell>
-                <mxCell id="dWsygXVGytjp5XT2-poX-10" parent="H31Xv0CxFdL9cmwElTgS-1" style="ellipse;fontStyle=1" value="Pemeriksa Ketersediaan" vertex="1">
+                <mxCell id="dWsygXVGytjp5XT2-poX-10" parent="H31Xv0CxFdL9cmwElTgS-1" style="ellipse;fontStyle=1;dashed=1;" value="Pemeriksa Ketersediaan" vertex="1">
                     <mxGeometry height="80" width="160" x="53.5" y="540" as="geometry"/>
                 </mxCell>
                 <mxCell id="dWsygXVGytjp5XT2-poX-44" edge="1" parent="H31Xv0CxFdL9cmwElTgS-1" source="dWsygXVGytjp5XT2-poX-26" style="edgeStyle=none;html=1;" target="IXcDOAcr8JXwdcaZZMAd-1" value="">

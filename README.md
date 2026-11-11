@@ -1,3 +1,5 @@
-identitas, 2406121 Faujan Alamsyah
-kakas, DRAW.IO
-PERTEMUAN 6 ACTIVITY DIAGRAM: DARI SKENARIO KE ALUR AKTIVITAS
+|              IDENTITAS : 2406121 Faujan Alamsyah              |
+|--------------------------------------------------------------|
+|                        KAKAS : DRAW.IO                        |
+|PERTEMUAN 7 ASSISMENT |
+|                                                              |
